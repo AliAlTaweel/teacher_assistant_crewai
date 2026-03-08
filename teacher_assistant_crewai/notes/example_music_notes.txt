@@ -1,0 +1,24 @@
+Topic: Introduction to Music Theory — Reading Sheet Music (Beginner)
+
+Key concepts:
+- The staff: 5 horizontal lines where notes are placed
+- Treble clef (G clef): used for higher-pitched instruments (piano right hand, violin, flute)
+- Bass clef (F clef): used for lower-pitched instruments (piano left hand, bass guitar, cello)
+- Notes on the treble clef lines (bottom to top): Every Good Boy Does Fine (E, G, B, D, F)
+- Notes in the treble clef spaces (bottom to top): FACE
+- Note durations: whole note (4 beats), half note (2 beats), quarter note (1 beat), eighth note (0.5 beats)
+- Time signature: top number = beats per measure, bottom number = which note gets one beat
+- Common time signatures: 4/4 (most common), 3/4 (waltz), 6/8
+- Rest symbols: silence for the same durations as notes
+- Bar lines divide the staff into measures
+- Tempo: speed of the music (BPM — beats per minute)
+
+Common student difficulties:
+- Memorizing note names on the lines vs. spaces
+- Counting rests accurately
+- Understanding that the time signature affects how you count, not the speed
+
+Real-world examples:
+- "Happy Birthday" is in 3/4 time
+- Most pop songs are in 4/4 time
+- Counting beats while clapping along to music

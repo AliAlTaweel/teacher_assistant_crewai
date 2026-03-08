@@ -1,0 +1,64 @@
+lesson_plan_task:
+  description: >
+    Using the following subject notes, create a comprehensive lesson plan.
+
+    Subject: {subject}
+    Notes:
+    {notes}
+
+    Your lesson plan must include:
+    - A clear title and subject overview
+    - Learning objectives (at least 3, using action verbs)
+    - A structured outline with time estimates for each section:
+      * Introduction / Hook (engage students)
+      * Main content delivery (broken into logical steps)
+      * Practice / Activity
+      * Review and wrap-up
+    - Required materials or resources
+    - Differentiation strategies (for advanced and struggling students)
+  expected_output: >
+    A well-structured lesson plan in markdown format, with clear sections,
+    time estimates, and actionable steps a teacher can follow directly in class.
+  agent: lesson_planner
+
+quiz_task:
+  description: >
+    Based on the following subject notes, create a quiz that tests student understanding.
+
+    Subject: {subject}
+    Notes:
+    {notes}
+
+    Your quiz must include:
+    - At least 5 multiple choice questions (with 4 options each, mark the correct answer)
+    - At least 3 short answer questions
+    - At least 2 true/false questions
+    - A clearly marked Answer Key at the end
+    - Difficulty levels: mix of easy, medium, and hard questions
+  expected_output: >
+    A complete quiz in markdown format with numbered questions organized by type,
+    followed by a separate Answer Key section. Ready to be printed or shared with students.
+  agent: quiz_generator
+
+teaching_suggestions_task:
+  description: >
+    Review the following subject notes and the lesson plan created by your colleague,
+    then provide targeted teaching strategies and suggestions.
+
+    Subject: {subject}
+    Notes:
+    {notes}
+
+    Your suggestions should cover:
+    - 3-5 specific teaching strategies best suited for this topic (explain why each works)
+    - Common misconceptions students have about this subject and how to address them
+    - Recommended analogies, real-world examples, or demonstrations to use
+    - How to make the lesson interactive and engaging
+    - Quick formative assessment ideas (ways to check understanding during class)
+    - Suggestions for homework or follow-up activities
+  expected_output: >
+    A practical teaching guide in markdown format, organized by section, with
+    specific and actionable suggestions a teacher can immediately apply in their classroom.
+  agent: teaching_advisor
+  context:
+    - lesson_plan_task
